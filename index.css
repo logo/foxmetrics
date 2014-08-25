@@ -1,18 +1,2 @@
-
-/**
- * FoxMetrics
- */
-
-.logo[data-logo="FoxMetrics"] {
-  width: 3.808073189em;
-  /* (728.43/200.85) * (1-.1+.15) - 0 */
-}
-
-.logo[data-logo="FoxMetrics"] > * {
-  background-image: url(images/logo.svg);
-  margin: .1em 0 -.15em 0;
-}
-
-.logo[data-logo="FoxMetrics"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
